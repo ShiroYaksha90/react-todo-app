@@ -52,7 +52,7 @@ const TodosLogic = () => {
           todo.title = updatedTitle;
         }
         return todo;
-      })
+      }),
     );
   };
   return (

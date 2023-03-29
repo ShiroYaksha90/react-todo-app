@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
   }
+
   body {
     font-family: "Segoe UI", sans-serif;
     line-height: 1.4;
@@ -11,6 +12,17 @@
     height: 100vh;
     font-weight: 400;
   }
+
+  .navbar ul {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 3.5em;
+    font-size: x-large;
+
+  }
+
   .wrapper {
     width: 100%;
     padding: 8rem 20px 3rem;
@@ -58,4 +70,12 @@
     display: block;
   }
   
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  /* Active route */
+  .active {
+    color: #8a4baf;
+  }
   
